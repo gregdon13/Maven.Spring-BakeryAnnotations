@@ -9,6 +9,7 @@ import java.util.Objects;
 public class Muffin {
 
     @Id
+    @GeneratedValue
     private Long id;
 
     private String flavor;

@@ -10,6 +10,7 @@ import java.util.Objects;
 public class Baker {
 
     @Id
+    @GeneratedValue
     private Long id;
 
     private String name;
